@@ -12,3 +12,5 @@
    for both the non-optimised and optimised mobilenet model -- This data
    is copied from the output folder and presented here to avoid confusion.
 7. The final .mp4 file is also kept here to avoid confusion. 
+
+![](Readme Image/Model_Cascade.PNG)
