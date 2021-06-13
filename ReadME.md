@@ -5,7 +5,10 @@ events from a given video stream. The Figure below shows the high-level block di
 of the pipeline. It consists of a video reader and a model cascade. The task is to
 detect object events (car) with a specific attribute (car type).
 
-![](Readme%20Image/Model_Cascade.PNG)
+<p align="center">
+  <img src="Readme%20Image/Model_Cascade.PNG" width=500>
+</p>
+
 
 The Model Cascade is a 2 stage operation:
 - **STAGE 1**: Deployed a SOTA Object Detector model (TinyYOLOv3) pre-trained on MSCOCO dataset. The model and weights are downloaded from : https://github.com/qqwweee/keras-yolo3   (or) https://pjreddie.com/darknet/yolo/
